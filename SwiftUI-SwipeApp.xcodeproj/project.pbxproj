@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEA926FC1C08002F54B5 /* AppDelegate.swift */; };
+		F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */; };
+		F489CEAE26FC1C08002F54B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAD26FC1C08002F54B5 /* ContentView.swift */; };
+		F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAF26FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld */; };
+		F489CEB326FC1C0B002F54B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB226FC1C0B002F54B5 /* Assets.xcassets */; };
+		F489CEB626FC1C0B002F54B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB526FC1C0B002F54B5 /* Preview Assets.xcassets */; };
+		F489CEB926FC1C0B002F54B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */; };
+		F489CEC426FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEC326FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift */; };
+		F489CECF26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F489CEC026FC1C0C002F54B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F489CE9E26FC1C08002F54B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F489CEA526FC1C08002F54B5;
+			remoteInfo = "SwiftUI-SwipeApp";
+		};
+		F489CECB26FC1C0C002F54B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F489CE9E26FC1C08002F54B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F489CEA526FC1C08002F54B5;
+			remoteInfo = "SwiftUI-SwipeApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F489CEA626FC1C08002F54B5 /* SwiftUI-SwipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-SwipeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F489CEA926FC1C08002F54B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F489CEAD26FC1C08002F54B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F489CEB026FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_SwipeApp.xcdatamodel; sourceTree = "<group>"; };
+		F489CEB226FC1C0B002F54B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F489CEB526FC1C0B002F54B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F489CEB826FC1C0B002F54B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F489CEBA26FC1C0B002F54B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F489CEBF26FC1C0C002F54B5 /* SwiftUI-SwipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SwipeAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F489CEC326FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SwipeAppTests.swift; sourceTree = "<group>"; };
+		F489CEC526FC1C0C002F54B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F489CECA26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SwipeAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SwipeAppUITests.swift; sourceTree = "<group>"; };
+		F489CED026FC1C0C002F54B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F489CEA326FC1C08002F54B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEBC26FC1C0C002F54B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEC726FC1C0C002F54B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F489CE9D26FC1C08002F54B5 = {
+			isa = PBXGroup;
+			children = (
+				F489CEA826FC1C08002F54B5 /* SwiftUI-SwipeApp */,
+				F489CEC226FC1C0C002F54B5 /* SwiftUI-SwipeAppTests */,
+				F489CECD26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests */,
+				F489CEA726FC1C08002F54B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F489CEA726FC1C08002F54B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEA626FC1C08002F54B5 /* SwiftUI-SwipeApp.app */,
+				F489CEBF26FC1C0C002F54B5 /* SwiftUI-SwipeAppTests.xctest */,
+				F489CECA26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F489CEA826FC1C08002F54B5 /* SwiftUI-SwipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEA926FC1C08002F54B5 /* AppDelegate.swift */,
+				F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */,
+				F489CEAD26FC1C08002F54B5 /* ContentView.swift */,
+				F489CEB226FC1C0B002F54B5 /* Assets.xcassets */,
+				F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */,
+				F489CEBA26FC1C0B002F54B5 /* Info.plist */,
+				F489CEAF26FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld */,
+				F489CEB426FC1C0B002F54B5 /* Preview Content */,
+			);
+			path = "SwiftUI-SwipeApp";
+			sourceTree = "<group>";
+		};
+		F489CEB426FC1C0B002F54B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEB526FC1C0B002F54B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F489CEC226FC1C0C002F54B5 /* SwiftUI-SwipeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEC326FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift */,
+				F489CEC526FC1C0C002F54B5 /* Info.plist */,
+			);
+			path = "SwiftUI-SwipeAppTests";
+			sourceTree = "<group>";
+		};
+		F489CECD26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */,
+				F489CED026FC1C0C002F54B5 /* Info.plist */,
+			);
+			path = "SwiftUI-SwipeAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F489CEA526FC1C08002F54B5 /* SwiftUI-SwipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F489CED326FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeApp" */;
+			buildPhases = (
+				F489CEA226FC1C08002F54B5 /* Sources */,
+				F489CEA326FC1C08002F54B5 /* Frameworks */,
+				F489CEA426FC1C08002F54B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-SwipeApp";
+			productName = "SwiftUI-SwipeApp";
+			productReference = F489CEA626FC1C08002F54B5 /* SwiftUI-SwipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F489CEBE26FC1C0C002F54B5 /* SwiftUI-SwipeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F489CED626FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeAppTests" */;
+			buildPhases = (
+				F489CEBB26FC1C0C002F54B5 /* Sources */,
+				F489CEBC26FC1C0C002F54B5 /* Frameworks */,
+				F489CEBD26FC1C0C002F54B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F489CEC126FC1C0C002F54B5 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-SwipeAppTests";
+			productName = "SwiftUI-SwipeAppTests";
+			productReference = F489CEBF26FC1C0C002F54B5 /* SwiftUI-SwipeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F489CEC926FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F489CED926FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeAppUITests" */;
+			buildPhases = (
+				F489CEC626FC1C0C002F54B5 /* Sources */,
+				F489CEC726FC1C0C002F54B5 /* Frameworks */,
+				F489CEC826FC1C0C002F54B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F489CECC26FC1C0C002F54B5 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-SwipeAppUITests";
+			productName = "SwiftUI-SwipeAppUITests";
+			productReference = F489CECA26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F489CE9E26FC1C08002F54B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F489CEA526FC1C08002F54B5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F489CEBE26FC1C0C002F54B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F489CEA526FC1C08002F54B5;
+					};
+					F489CEC926FC1C0C002F54B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F489CEA526FC1C08002F54B5;
+					};
+				};
+			};
+			buildConfigurationList = F489CEA126FC1C08002F54B5 /* Build configuration list for PBXProject "SwiftUI-SwipeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F489CE9D26FC1C08002F54B5;
+			productRefGroup = F489CEA726FC1C08002F54B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F489CEA526FC1C08002F54B5 /* SwiftUI-SwipeApp */,
+				F489CEBE26FC1C0C002F54B5 /* SwiftUI-SwipeAppTests */,
+				F489CEC926FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F489CEA426FC1C08002F54B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F489CEB926FC1C0B002F54B5 /* LaunchScreen.storyboard in Resources */,
+				F489CEB626FC1C0B002F54B5 /* Preview Assets.xcassets in Resources */,
+				F489CEB326FC1C0B002F54B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEBD26FC1C0C002F54B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEC826FC1C0C002F54B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F489CEA226FC1C08002F54B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */,
+				F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */,
+				F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */,
+				F489CEAE26FC1C08002F54B5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEBB26FC1C0C002F54B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F489CEC426FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F489CEC626FC1C0C002F54B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F489CECF26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F489CEC126FC1C0C002F54B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F489CEA526FC1C08002F54B5 /* SwiftUI-SwipeApp */;
+			targetProxy = F489CEC026FC1C0C002F54B5 /* PBXContainerItemProxy */;
+		};
+		F489CECC26FC1C0C002F54B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F489CEA526FC1C08002F54B5 /* SwiftUI-SwipeApp */;
+			targetProxy = F489CECB26FC1C0C002F54B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F489CEB826FC1C0B002F54B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F489CED126FC1C0C002F54B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F489CED226FC1C0C002F54B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F489CED426FC1C0C002F54B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-SwipeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-SwipeApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F489CED526FC1C0C002F54B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-SwipeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-SwipeApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F489CED726FC1C0C002F54B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				INFOPLIST_FILE = "SwiftUI-SwipeAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-SwipeApp.app/SwiftUI-SwipeApp";
+			};
+			name = Debug;
+		};
+		F489CED826FC1C0C002F54B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				INFOPLIST_FILE = "SwiftUI-SwipeAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-SwipeApp.app/SwiftUI-SwipeApp";
+			};
+			name = Release;
+		};
+		F489CEDA26FC1C0C002F54B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				INFOPLIST_FILE = "SwiftUI-SwipeAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-SwipeApp";
+			};
+			name = Debug;
+		};
+		F489CEDB26FC1C0C002F54B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3PW95J64Q;
+				INFOPLIST_FILE = "SwiftUI-SwipeAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hiroaki-Hirabayashi.SwiftUI-SwipeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-SwipeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F489CEA126FC1C08002F54B5 /* Build configuration list for PBXProject "SwiftUI-SwipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F489CED126FC1C0C002F54B5 /* Debug */,
+				F489CED226FC1C0C002F54B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F489CED326FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F489CED426FC1C0C002F54B5 /* Debug */,
+				F489CED526FC1C0C002F54B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F489CED626FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F489CED726FC1C0C002F54B5 /* Debug */,
+				F489CED826FC1C0C002F54B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F489CED926FC1C0C002F54B5 /* Build configuration list for PBXNativeTarget "SwiftUI-SwipeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F489CEDA26FC1C0C002F54B5 /* Debug */,
+				F489CEDB26FC1C0C002F54B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F489CEAF26FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F489CEB026FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodel */,
+			);
+			currentVersion = F489CEB026FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodel */;
+			path = SwiftUI_SwipeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F489CE9E26FC1C08002F54B5 /* Project object */;
+}
