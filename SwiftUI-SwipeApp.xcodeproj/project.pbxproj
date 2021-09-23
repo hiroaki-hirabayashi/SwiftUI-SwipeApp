@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEA926FC1C08002F54B5 /* AppDelegate.swift */; };
-		F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */; };
 		F489CEAE26FC1C08002F54B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAD26FC1C08002F54B5 /* HomeView.swift */; };
 		F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAF26FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld */; };
 		F489CEB326FC1C0B002F54B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB226FC1C0B002F54B5 /* Assets.xcassets */; };
@@ -18,6 +16,8 @@
 		F489CECF26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */; };
 		F489CEE726FC67CE002F54B5 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEE626FC67CE002F54B5 /* TopControlView.swift */; };
 		F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */; };
+		F489CEF226FCF2BF002F54B5 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEF126FCF2BF002F54B5 /* CardViewModel.swift */; };
+		F489CF0826FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CF0726FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		F489CEA626FC1C08002F54B5 /* SwiftUI-SwipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-SwipeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F489CEA926FC1C08002F54B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F489CEAD26FC1C08002F54B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F489CEB026FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_SwipeApp.xcdatamodel; sourceTree = "<group>"; };
 		F489CEB226FC1C0B002F54B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		F489CED026FC1C0C002F54B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F489CEE626FC67CE002F54B5 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
+		F489CEF126FCF2BF002F54B5 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		F489CF0726FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI-SwipeApp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				F489CEDF26FC66AF002F54B5 /* View */,
-				F489CEA926FC1C08002F54B5 /* AppDelegate.swift */,
-				F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */,
+				F489CEF026FCF291002F54B5 /* ViewModel */,
+				F489CF0726FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift */,
 				F489CEB226FC1C0B002F54B5 /* Assets.xcassets */,
 				F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */,
 				F489CEBA26FC1C0B002F54B5 /* Info.plist */,
@@ -151,6 +151,14 @@
 				F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F489CEF026FCF291002F54B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEF126FCF2BF002F54B5 /* CardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +293,10 @@
 			files = (
 				F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */,
 				F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */,
-				F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */,
-				F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */,
+				F489CF0826FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift in Sources */,
 				F489CEE726FC67CE002F54B5 /* TopControlView.swift in Sources */,
 				F489CEAE26FC1C08002F54B5 /* HomeView.swift in Sources */,
+				F489CEF226FCF2BF002F54B5 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
