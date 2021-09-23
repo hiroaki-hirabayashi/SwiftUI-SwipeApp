@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEA926FC1C08002F54B5 /* AppDelegate.swift */; };
 		F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */; };
-		F489CEAE26FC1C08002F54B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAD26FC1C08002F54B5 /* ContentView.swift */; };
+		F489CEAE26FC1C08002F54B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAD26FC1C08002F54B5 /* HomeView.swift */; };
 		F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F489CEAF26FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld */; };
 		F489CEB326FC1C0B002F54B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB226FC1C0B002F54B5 /* Assets.xcassets */; };
 		F489CEB626FC1C0B002F54B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB526FC1C0B002F54B5 /* Preview Assets.xcassets */; };
 		F489CEB926FC1C0B002F54B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */; };
 		F489CEC426FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEC326FC1C0C002F54B5 /* SwiftUI_SwipeAppTests.swift */; };
 		F489CECF26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */; };
+		F489CEE726FC67CE002F54B5 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEE626FC67CE002F54B5 /* TopControlView.swift */; };
+		F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		F489CEA626FC1C08002F54B5 /* SwiftUI-SwipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-SwipeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F489CEA926FC1C08002F54B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F489CEAD26FC1C08002F54B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F489CEAD26FC1C08002F54B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F489CEB026FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_SwipeApp.xcdatamodel; sourceTree = "<group>"; };
 		F489CEB226FC1C0B002F54B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F489CEB526FC1C0B002F54B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		F489CECA26FC1C0C002F54B5 /* SwiftUI-SwipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SwipeAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F489CECE26FC1C0C002F54B5 /* SwiftUI_SwipeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SwipeAppUITests.swift; sourceTree = "<group>"; };
 		F489CED026FC1C0C002F54B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F489CEE626FC67CE002F54B5 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
+		F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +146,9 @@
 		F489CEDF26FC66AF002F54B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F489CEAD26FC1C08002F54B5 /* ContentView.swift */,
+				F489CEAD26FC1C08002F54B5 /* HomeView.swift */,
+				F489CEE626FC67CE002F54B5 /* TopControlView.swift */,
+				F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,9 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */,
+				F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */,
 				F489CEAA26FC1C08002F54B5 /* AppDelegate.swift in Sources */,
 				F489CEAC26FC1C08002F54B5 /* SceneDelegate.swift in Sources */,
-				F489CEAE26FC1C08002F54B5 /* ContentView.swift in Sources */,
+				F489CEE726FC67CE002F54B5 /* TopControlView.swift in Sources */,
+				F489CEAE26FC1C08002F54B5 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
