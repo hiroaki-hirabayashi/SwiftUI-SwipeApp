@@ -101,9 +101,9 @@
 		F489CEA826FC1C08002F54B5 /* SwiftUI-SwipeApp */ = {
 			isa = PBXGroup;
 			children = (
+				F489CEDF26FC66AF002F54B5 /* View */,
 				F489CEA926FC1C08002F54B5 /* AppDelegate.swift */,
 				F489CEAB26FC1C08002F54B5 /* SceneDelegate.swift */,
-				F489CEAD26FC1C08002F54B5 /* ContentView.swift */,
 				F489CEB226FC1C0B002F54B5 /* Assets.xcassets */,
 				F489CEB726FC1C0B002F54B5 /* LaunchScreen.storyboard */,
 				F489CEBA26FC1C0B002F54B5 /* Info.plist */,
@@ -137,6 +137,14 @@
 				F489CED026FC1C0C002F54B5 /* Info.plist */,
 			);
 			path = "SwiftUI-SwipeAppUITests";
+			sourceTree = "<group>";
+		};
+		F489CEDF26FC66AF002F54B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F489CEAD26FC1C08002F54B5 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
