@@ -20,6 +20,7 @@ struct TopControlView: View {
     var body: some View {
         HStack {
             Button(action: {
+                // 初期値
                 selectedItem = .check
             }, label: {
                 // ボタンのイメージプロパティ
@@ -58,7 +59,6 @@ struct TopControlView: View {
             })
             .frame(width: frameWidth / 4 - 20)
             .padding(.trailing, 30)
-            
         }
         // Stackプロパティ
         .padding()
@@ -68,7 +68,6 @@ struct TopControlView: View {
 
 extension Image {
 
-   
     func asTopControlButtonImage() -> some View {
         self
             .resizable()
