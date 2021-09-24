@@ -18,6 +18,8 @@
 		F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */; };
 		F489CEF226FCF2BF002F54B5 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CEF126FCF2BF002F54B5 /* CardViewModel.swift */; };
 		F489CF0826FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CF0726FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift */; };
+		F489CF2926FD65DA002F54B5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CF2826FD65DA002F54B5 /* SignInView.swift */; };
+		F489CF2E26FD6EA4002F54B5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489CF2D26FD6EA4002F54B5 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
 		F489CEF126FCF2BF002F54B5 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		F489CF0726FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftUI-SwipeApp.swift"; sourceTree = "<group>"; };
+		F489CF2826FD65DA002F54B5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F489CF2D26FD6EA4002F54B5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				F489CEAD26FC1C08002F54B5 /* HomeView.swift */,
 				F489CEE626FC67CE002F54B5 /* TopControlView.swift */,
 				F489CEEB26FC68D5002F54B5 /* BottomControlView.swift */,
+				F489CF2826FD65DA002F54B5 /* SignInView.swift */,
+				F489CF2D26FD6EA4002F54B5 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,10 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F489CEB126FC1C08002F54B5 /* SwiftUI_SwipeApp.xcdatamodeld in Sources */,
+				F489CF2926FD65DA002F54B5 /* SignInView.swift in Sources */,
 				F489CEEC26FC68D5002F54B5 /* BottomControlView.swift in Sources */,
 				F489CF0826FCFDAA002F54B5 /* SwiftUI-SwipeApp.swift in Sources */,
 				F489CEE726FC67CE002F54B5 /* TopControlView.swift in Sources */,
 				F489CEAE26FC1C08002F54B5 /* HomeView.swift in Sources */,
+				F489CF2E26FD6EA4002F54B5 /* LoginView.swift in Sources */,
 				F489CEF226FCF2BF002F54B5 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
